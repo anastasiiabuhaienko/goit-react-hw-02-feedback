@@ -1,0 +1,22 @@
+.feedback {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.rateButton {
+    padding: 20px 50px;
+    font-size: 26px;
+    font-weight: 700;
+    border-radius: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+
+
+}
+
+.rateButton:hover,
+.rateButton:focus {
+
+    background-color: #bbb2b2;
+}
+
