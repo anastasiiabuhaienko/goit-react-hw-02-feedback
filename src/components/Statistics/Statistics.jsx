@@ -5,15 +5,15 @@ const Statistics = ({
     good = 0,
     neutral = 0,
     bad = 0,
-    total = 0,
-    positivPercentage,
+    totalFeedback = 0,
+    positiveFeedbackPercentage = 0,
 }) => (
     <div className={css.statisticsSection}>
         <p className={css.rateResult}>Good: {good}</p>
         <p className={css.rateResult}>Neutral: {neutral}</p>
         <p className={css.rateResult}>Bad: {bad}</p>
-        <p className={css.rateResult}>Total: {total}</p>
-        <p className={css.rateResult}>Positive feedback: {positivPercentage}%</p>
+        <p className={css.rateResult}>Total: {totalFeedback}</p>
+        <p className={css.rateResult}>Positive feedback: {positiveFeedbackPercentage}%</p>
     </div>
 )
 
@@ -25,6 +25,6 @@ Statistics.propTypes = {
     good: PropTypes.number,
     neutral: PropTypes.number,
     bad: PropTypes.number,
-    total: PropTypes.number,
-    positivPercentage: PropTypes.string,
+    totalFeedback: PropTypes.number,
+    positiveFeedbackPercentage: PropTypes.string,
 };
