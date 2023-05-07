@@ -1,0 +1,11 @@
+.messageSection {
+    width: 700px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+
+    
+}
