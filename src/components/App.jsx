@@ -1,6 +1,4 @@
-// import { useState } from 'react';
 import { Component } from 'react';
-//import Feedback from './Feedback/Feedback';
 import Message from './Message/Message';
 import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
 import Statistics from './Statistics/Statistics';
@@ -20,7 +18,7 @@ updateStatistics = (state) => {
     this.setState((prevState) => ({ [state]: prevState[state] + 1 }));
 };
 
-    
+
 
     countTotalFeedback = () => {
         const total = Object.values(this.state).reduce((previusValue, number) => {
